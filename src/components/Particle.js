@@ -14,24 +14,29 @@ function Particle() {
               value_area: 1500,
             },
           },
+          opacity: {
+            value: 1, // Nilai opacity default
+            random: true, // Membuat nilai opacity menjadi acak
+            anim: {
+              enable: true,
+              speed: 1,
+              opacity_min: 0.1, // Nilai opacity minimum saat animasi
+              sync: false,
+            },
+          },
           line_linked: {
             enable: false,
             opacity: 0.03,
           },
           move: {
-            direction: "right",
-            speed: 0.05,
+            enable: true, // Mengaktifkan pergerakan partikel
+            direction: "none", // Arah pergerakan partikel (none, top, top-right, right, bottom-right, bottom, bottom-left, left, top-left, random)
+            speed: 0.5, // Kecepatan pergerakan partikel
           },
           size: {
             value: 1,
           },
-          opacity: {
-            anim: {
-              enable: true,
-              speed: 1,
-              opacity_min: 0.05,
-            },
-          },
+          
         },
         interactivity: {
           events: {

@@ -18,6 +18,12 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.purplee {
+  font-size: 0.3em; /* Sesuaikan ukuran font sesuai kebutuhan Anda */
+  color: var(--imp-text-color) !important;
+  display: block;
+}
+
 button:focus {
   box-shadow: none !important;
 }

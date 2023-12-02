@@ -9,6 +9,11 @@ import {
   DiPython,
   DiGit,
   DiJava,
+  DiHtml5,
+  DiCss3,
+  DiPhp,
+  DiLaravel,
+  DiMysql,
 } from "react-icons/di";
 import {
   SiRedis,
@@ -23,49 +28,49 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <span className="purplee">JavaScript</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <DiHtml5 />
+        <span className="purplee">HTML</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+        <span className="purplee">CSS</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPhp />
+        <span className="purplee">PHP</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMysql />
+        <span className="purplee">Mysql</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+        <span className="purplee">Node.js</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+        <span className="purplee">React.js</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <DiLaravel />
+        <span className="purplee">Laravel</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <span className="purplee">MongoDB</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <span className="purplee">Git</span>
       </Col>
     </Row>
   );
 }
+
+
 
 export default Techstack;
